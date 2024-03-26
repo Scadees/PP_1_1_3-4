@@ -10,8 +10,8 @@ public class Util {
     private static Util newConnection;
 
     private static String URL = "jdbc:mysql://localhost:3306/new_schema";
-    private static String USERNAME = "Scades";
-    private static String PASSWORD = "s151803059698nF";
+    private static String USERNAME = "root";
+    private static String PASSWORD = "root";
 
     public Util() throws SQLException {
         if (connection == null || connection.isClosed()) {
