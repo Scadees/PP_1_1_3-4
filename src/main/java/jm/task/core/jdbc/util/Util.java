@@ -7,8 +7,8 @@ import java.sql.SQLException;
 public class Util {
 
     private static String URL = "jdbc:mysql://localhost:3306/new_schema";
-    private static String USERNAME = "Scades";
-    private static String PASSWORD = "s151803059698nF";
+    private static String USERNAME = "root";
+    private static String PASSWORD = "root";
 
     public static Connection getConnection() throws SQLException {
         Connection connection;
